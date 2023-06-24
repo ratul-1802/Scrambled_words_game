@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Rearrange The Word</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Guess The Word</h1>
+        </div>
+        <div class="contents">
+            <p class="words"></p>
+            <div class="details">
+                <p class="hint">Hints: <span class="hint-content"></span> </p>
+                <p class="time">Remaining Time:<span class="time-details"><b>30</b>s</span></p>
+            </div>
+            <input type="text" placeholder="Try to enter a valid word">
+            <div class="buttons">
+                <button class="reset">Reset</button>
+                <button class="validate">Validate</button>
+            </div>
+        </div>
+    </div>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
